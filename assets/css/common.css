@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "Helvetica Neue","Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+picture{
+    display: block;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+br.pc{
+    display: none;
+}
+br.sp{
+    display: block;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+ 
+    br.pc{
+        display: block;
+    }
+    br.sp{
+        display: none;
+    }
+}
